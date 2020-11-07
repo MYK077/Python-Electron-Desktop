@@ -11,7 +11,8 @@ to create and start virtual env.
 ## Running Backend Locally
 
 While your virtual env is active get inside **pycalc** using code editor terminal and write **python api.py**, upon running the following message will be printed in terminal **start running on tcp://127.0.0.1:4242**. If the following port does not work for you please change the port in parse port method line 22 in api.py file and run again. Keep the api.py running now.
-**Note**: You can temporarily remove build folder, dist folder and api.spec from pycalc to run backend locally
+**Note**: You can temporarily remove build folder, dist folder and api.spec from pycalc to run backend locally as
+they are python executables created using pyInstaller.
 
 ## For front end
 
