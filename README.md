@@ -1,6 +1,6 @@
 # Add two numbers Desktop Application for Windows
 
-Its a desktop application which adds two numbers and display the output **TechStack used**:The tech stack comprise of **Python3**(used to write the backend logic), **JavaScript**, **HTML**(for front-end) **Electron** to package the application into a desktop format and **Spectron** for automated testing.
+Its a desktop application which adds two numbers and display the output. **TechStack used**:The tech stack comprise of **Python3**(used to write the backend logic), **JavaScript**, **HTML**(for front-end) **Electron** to package the application into a desktop format and **Spectron** for automated testing.
 
 # To Test locally
 
@@ -10,7 +10,7 @@ to create and start virtual env.
 
 ## Running Backend Locally
 
-While your virtual env is active get inside **pycalc** using code editor terminal and write **python api.py** upon running the following message will be printed in terminal **start running on tcp://127.0.0.1:4242** if the following port does not work for you please change the port in parse port method line 22 in api.py file and run again. Keep the api.py running now.
+While your virtual env is active get inside **pycalc** using code editor terminal and write **python api.py**, upon running the following message will be printed in terminal **start running on tcp://127.0.0.1:4242**. If the following port does not work for you please change the port in parse port method line 22 in api.py file and run again. Keep the api.py running now.
 
 ## For front end
 
@@ -18,8 +18,8 @@ Open a different terminal window in code editor, if you still see your python vi
 
 ## To package the application
 
-I have already provided the packaged python executables file using py-installer. However to package activate the virtual env and run **pyinstaller api.py**. To package the application use **electron-packager .** in terminal.
-In case the electron-packager does not work please install it globally using **npm install electron-packager -g**
+I have already provided the packaged python executables file using py-installer. However to package, activate the virtual env and run **pyinstaller api.py**. To package the application use **electron-packager .** in terminal.
+In case the electron-packager does not work please install it globally using **npm install electron-packager -g** and rerun **electron-packager .** , the windows executable folder of the application will be created. Go inside the folder and click on the executable desktop file.
 
 ## Automation Testing
 
