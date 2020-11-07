@@ -61,7 +61,9 @@ afterEach(function () {
       .then((val) =>{
         assert.strictEqual(val, 4)
       })
-     });
+     }).catch((e)=>{
+       console.log(e)
+     })
   })
 })
 
