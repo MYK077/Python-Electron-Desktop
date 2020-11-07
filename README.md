@@ -18,5 +18,9 @@ Open a different terminal window in code editor, if you still see your python vi
 
 ## To package the application
 
-I have already provided the packaged python executables file using py-installer. To package the application use **electron-packager .** in terminal.
+I have already provided the packaged python executables file using py-installer. However to package activate the virtual env and run **pyinstaller api.py**. To package the application use **electron-packager .** in terminal.
 In case the electron-packager does not work please install it globally using **npm install electron-packager -g**
+
+## Automation Testing
+
+To run the the testing file run the command **npm run test**. I have given a time out of 10000ms before app launches first time. If time exceeds please rerun the test file again or increase the time.
