@@ -18,4 +18,5 @@ Open a different terminal window in code editor, if you still see your python vi
 
 ## To package the application
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+I have already provided the packaged python executables file using py-installer. To package the application use **electron-packager .** in terminal.
+In case the electron-packager does not work please install it globally using **npm install electron-packager -g**
