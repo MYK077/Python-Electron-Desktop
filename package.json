@@ -1,0 +1,27 @@
+{
+  "name": "addition-app",
+  "productName": "addition-application",
+  "version": "1.0.0",
+  "description": "application for desktop using python, electron, js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha test/test.js"
+  },
+
+  "keywords": [],
+  "author": "Mayank",
+  "license": "ISC",
+  "dependencies": {
+    "electron-reload": "^1.5.0",
+    "node-gyp-build": "^4.2.3",
+    "zerorpc": "^0.9.8"
+  },
+  "devDependencies": {
+    "electron": "^6.0.0",
+    "electron-chromedriver": "^10.0.0",
+    "electron-packager": "^15.1.0",
+    "mocha": "^8.2.1",
+    "spectron": "^8.0.0"
+  }
+}
