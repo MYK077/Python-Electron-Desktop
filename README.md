@@ -4,13 +4,14 @@ Its a desktop application which adds two numbers and display the output. **TechS
 
 # To Test locally
 
-Clone the application folder from the git repository, and in that folder location run **npm install** in terminal of your code editor. This will install all the right versions of dependencies for front-end functionality of the application. For the backend logic in Python create a virtual environment from the terminal in code editor using **python -m venv env**. After creating the the virtual environment activate it with using the following command **.\env\Scripts\activate** when activated write **pip install -r requirements.txt** this will install all the Python dependencies in your **env** folder which is your virtual environment.
+Clone the git repository, and in that folder location run **npm install** in terminal of your code editor. This will install all the right versions of dependencies for front-end functionality of the application. For the backend logic in Python create a virtual environment from the terminal in code editor using **python -m venv env**. After creating the the virtual environment activate it with using the following command **.\env\Scripts\activate** when activated write **pip install -r requirements.txt** this will install all the Python dependencies in your **env** folder which is your virtual environment.
 For mac/linux follow: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 to create and start virtual env.
 
 ## Running Backend Locally
 
 While your virtual env is active get inside **pycalc** using code editor terminal and write **python api.py**, upon running the following message will be printed in terminal **start running on tcp://127.0.0.1:4242**. If the following port does not work for you please change the port in parse port method line 22 in api.py file and run again. Keep the api.py running now.
+**Note**: You can temporarily remove build folder, dist folder and api.spec from pycalc to run backend locally
 
 ## For front end
 
