@@ -20,7 +20,7 @@ Open a different terminal window in code editor, if you still see your python vi
 
 ## To package the application
 
-I have already provided the packaged python executables file using py-installer. However to package, activate the virtual env and run **pyinstaller api.py**. To package the application use **electron-packager .** in terminal.
+I have already provided the packaged python executables file inside **pycalc** using py-installer. However to package, activate the virtual env and run **pyinstaller api.py**. To package the application use **electron-packager .** in terminal.
 In case the electron-packager does not work please install it globally using **npm install electron-packager -g** and rerun **electron-packager .** , the windows executable folder of the application will be created. Go inside the folder and click on the executable desktop file.
 
 ## Automation Testing
